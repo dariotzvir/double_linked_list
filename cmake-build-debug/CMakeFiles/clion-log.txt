@@ -1,4 +1,6 @@
-/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=ninja -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -G Ninja -S /home/dario/CLionProjects/double_linked_list -B /home/dario/CLionProjects/double_linked_list/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/dario/CLionProjects/double_linked_list/cmake-build-debug
+/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/bin/gcc -DCMAKE_CXX_COMPILER=/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/dario/CLionProjects/double_linked_list -B /home/dario/CLionProjects/double_linked_list/cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.23 or higher is required.  You are running version 3.22.2
+
+
+-- Configuring incomplete, errors occurred!
